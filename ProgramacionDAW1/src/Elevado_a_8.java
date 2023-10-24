@@ -9,15 +9,19 @@ public class Elevado_a_8 {
         int contador = 0;
         int datoEntrada = 0;
         int datoPrimero = 0;
-        datoPrimero = datoEntrada * datoPrimero;
 
+        // Pedimos al usuario que introduzca un número
         System.out.println("Introduce un número:");
         datoEntrada = entrada.nextInt();
 
-        while (contador < 8) {
+        // Guardamos el valor original de datoEntrada en datoPrimero
+        datoPrimero = datoEntrada;
+
+        // Mientras el contador sea menor que 8, multiplicamos datoEntrada por datoPrimero y lo imprimimos
+        while (contador < 7) {
             datoEntrada = datoEntrada * datoPrimero;
             contador++;
             System.out.println(datoEntrada);
-            }
         }
     }
+}
