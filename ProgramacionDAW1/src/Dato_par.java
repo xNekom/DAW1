@@ -3,7 +3,7 @@ hasta que el dato introducido sea impar en el que mostrará el mensaje: "dato im
 
 import java.util.Scanner;
 
-public class prueba {
+public class Dato_par {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         System.out.println("Introduce un número:");
