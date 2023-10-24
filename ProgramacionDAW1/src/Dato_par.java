@@ -3,20 +3,17 @@ hasta que el dato introducido sea impar en el que mostrará el mensaje: "dato im
 
 import java.util.Scanner;
 
-public class Dato_par {
+public class prueba {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         System.out.println("Introduce un número:");
-
-        while (true) {
-            int num = entrada.nextInt();
-            if (num % 2 == 0) {
-                System.out.println("Número par");
-                System.out.println("Introduce otro número: ");
-            } else {
-                System.out.println("Dato impar, fin del programa");
-                break;
+        int num = entrada.nextInt();
+        
+        while (num % 2 == 0) { 
+            System.out.println("Número par");
+            System.out.println("Introduce otro número: ");
+            num = entrada.nextInt();
             }
+            System.out.println("Dato impar, fin del programa.");
         }
     }
-}
