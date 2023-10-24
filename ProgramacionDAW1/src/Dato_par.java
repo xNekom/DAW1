@@ -18,6 +18,5 @@ public class Dato_par {
                 break;
             }
         }
-        entrada.close();
     }
 }

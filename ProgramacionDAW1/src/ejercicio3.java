@@ -12,12 +12,24 @@ public class ejercicio3 {
         System.out.println("Introduce el valor de c: ");
         c = entrada.nextInt();
 
-        if ((a > c) && (b > c)) {
-        	System.out.print("El mayor es "+a+"; el del medio es "+b+"; el menor es "+c);
+        if (a < b) {
+            a = a + b;
+            b = a - b;
+            a = a - b;
         }
-        if ((a > c) && (b > c)) {
-        	System.out.print("a>c>b");
+
+        if (b < c) {
+            b = b + c;
+            c = b - c;
+            b = b - c;
         }
-        if ((a > c) && (b > c)) {
-        	System.out.print("a>c>b");
+
+        if (a < b) {
+            a = a + b;
+            b = a - b;
+            a = a - b;
         }
+
+        System.out.println("El mayor es " + a + "; el del medio es " + b + "; el menor es " + c);
+    }
+}
