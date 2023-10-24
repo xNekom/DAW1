@@ -5,11 +5,11 @@ public class ejercicio3 {
         Scanner entrada = new Scanner(System.in);
         int a, b, c;
 
-        System.out.println("Introduce el valor de a: ");
+        System.out.println("Introduce el valor del 1º número: ");
         a = entrada.nextInt();
-        System.out.println("Introduce el valor de b: ");
+        System.out.println("Introduce el valor del 2º número: ");
         b = entrada.nextInt();
-        System.out.println("Introduce el valor de c: ");
+        System.out.println("Introduce el valor del 3º número: ");
         c = entrada.nextInt();
 
         if (a < b) {
