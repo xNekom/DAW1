@@ -1,4 +1,7 @@
-/*Desarrolla un programa que eleve un número a 8 utilizando while*/
+/*Elevar un número a una potencia con un bucle WHILE.
+El usuario introduce la base y el exponente por consola. 
+El programa debe calcular mediante un bucle WHILE el resultado de esa operación y 
+mostrarnos el resultado y la cantidad de iteraciones que ha hecho en dicho bucle.*/
 
 import java.util.Scanner;
 
@@ -6,22 +9,23 @@ public class Elevado_a_8 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
 
-        int contador = 0;
-        int datoEntrada = 0;
-        int datoPrimero = 0;
+        int resultado = 1; // Establecemos variable resultado en 1
+        int contador = 0; // Añadimos un contador para las iteraciones
 
-        // Pedimos al usuario que introduzca un número
+        // Pedimos al usuario que introduzca la base
         System.out.println("Introduce un número: ");
-        datoEntrada = entrada.nextInt();
+        int base = entrada.nextInt();
 
-        // Guardamos el valor original de datoEntrada en datoPrimero
-        datoPrimero = datoEntrada;
+        // Pedimos al usuario que introduzca la potencia
+        System.out.println("Introduce la potencia: ");
+        int potencia = entrada.nextInt();
 
-        // Mientras el contador sea menor que 8, multiplicamos datoEntrada por datoPrimero y lo imprimimos
-        while (contador < 7) {
-            datoEntrada = datoEntrada * datoPrimero;
+        // Mientras el contador sea menor que la potencia, multiplicamos resultado por base
+        while (contador < potencia) {
+            resultado = resultado * base;
             contador++;
-            System.out.println(datoEntrada);
+            System.out.println("Iteración " + contador + ": " + resultado);
         }
+        System.out.println("Número total de iteraciones: " + contador);
     }
 }
