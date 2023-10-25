@@ -11,7 +11,7 @@ public class Elevado_a_8 {
         int datoPrimero = 0;
 
         // Pedimos al usuario que introduzca un número
-        System.out.println("Introduce un número:");
+        System.out.println("Introduce un número: ");
         datoEntrada = entrada.nextInt();
 
         // Guardamos el valor original de datoEntrada en datoPrimero
