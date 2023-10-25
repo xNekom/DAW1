@@ -1,3 +1,4 @@
+package IF;
 /*Escribir un programa que asigne la ventanilla a un cliente de un banco en función de su edad y de su solicitud. 
 El usuario introduce el tipo de cliente y su solicitud en el TPV tecleando un número.
 Tipos de clientes:
@@ -16,7 +17,7 @@ Acciones:
 
 import java.util.Scanner;
 
-public class Ventanilla_banco {
+public class E3Ventanilla_banco {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 		

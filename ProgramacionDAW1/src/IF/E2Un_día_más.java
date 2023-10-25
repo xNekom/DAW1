@@ -1,6 +1,7 @@
+package IF;
 import java.util.Scanner;
 
-public class Un_día_más {
+public class E2Un_día_más {
 
 	public static void main(String[] args) {
 		int day, month, year;  // Establecer variables enteras

@@ -1,6 +1,7 @@
+package IF;
 import java.util.Scanner;
 
-public class ejercicio3 {
+public class Ordenar {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         int a, b, c;

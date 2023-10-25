@@ -1,6 +1,7 @@
+package IF;
 import java.util.Scanner;
 
-public class Un_segundo_más{
+public class E1Un_segundo_más{
 
 	public static void main(String[] args) {
 		int hora, minuto, segundo;  // Establecemos variables

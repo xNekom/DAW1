@@ -1,3 +1,4 @@
+package WHILE;
 /*Elevar un número a una potencia con un bucle WHILE.
 El usuario introduce la base y el exponente por consola. 
 El programa debe calcular mediante un bucle WHILE el resultado de esa operación y 
@@ -5,7 +6,7 @@ mostrarnos el resultado y la cantidad de iteraciones que ha hecho en dicho bucle
 
 import java.util.Scanner;
 
-public class Elevado_a_8 {
+public class E7Elevado {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
 
