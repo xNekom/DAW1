@@ -14,6 +14,7 @@ public class E8Juego {
         
         System.out.println("¡Comienza el juego!");
         System.out.println("Tienes que adivinar el número secreto, este se encuentra entre 0 y 99.");
+        System.out.println("Si en algún momento quieres rendirte, introduce '-1'");
         System.out.println("Introduce un número: ");
         intento = entrada.nextInt();
 
@@ -22,7 +23,7 @@ public class E8Juego {
                 System.out.println("Has abandonado.");
                 break;
             }
-            if (numeroSecreto < intento) {
+            else if (numeroSecreto < intento) {
                 System.out.println("El número introducido es menor.");
                 System.out.println("Introduce otro número: ");
                 intento = entrada.nextInt();
