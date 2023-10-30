@@ -25,15 +25,15 @@ public class E10Calcular_suma {
             System.out.println(resultado);
             System.out.println("Introduce la solución: ");
             intento = entrada.nextInt();
-            contador++;
             if (intento == resultado) {
                 System.out.println("¡Correcto! Prueba de nuevo");
+                contador++;
             }
             else {
                 System.out.println("Fallaste, ¡mejor suerte la próxima vez!");
             }
         }
         while (intento == resultado);
-        System.out.println("Número total de iteraciones: " + contador);
+        System.out.println("Número total de operaciones correctas: " + contador);
     }
 }
