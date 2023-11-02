@@ -1,4 +1,5 @@
 package FOR;
+
 import java.util.*;
 
 public class Ejercicio_clase {
@@ -7,5 +8,5 @@ public class Ejercicio_clase {
             System.out.println(i);
         }
     }
-    
+
 }
