@@ -9,7 +9,8 @@ public class E13Deletrear_string {
     public static void main(String[] args) {
         String frase = "Cuenta las letras que tiene este string con un bucle FOR";
         for (int i = frase.length() - 1; i >= 0; i--) {
-            System.out.println(frase.charAt(i));
+            char caracter = frase.charAt(i);
+            System.out.println(caracter);
         }
     }
 }
