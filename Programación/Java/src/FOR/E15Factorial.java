@@ -14,13 +14,10 @@ public class E15Factorial {
         System.out.println("Introduce un número para calcular su factorial: ");
         int num = entrada.nextInt();
         for (int i = num; i > 0; i--) {
-            //f = factorial;
-            //System.out.println(f+ "      ");
+            f = factorial;
             factorial = factorial*i;
-            System.out.println(num + "x" + factorial + "=" + num*factorial);
+            System.out.println("Factorial de " + (num-i+1) + " es: " + f + " * " + i + " = " + factorial);
         }
          System.out.println("El resultado es: " + factorial);
     }
 }
-
-
