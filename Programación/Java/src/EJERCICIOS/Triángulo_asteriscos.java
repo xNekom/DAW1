@@ -7,8 +7,8 @@ public class Triángulo_asteriscos {
         Scanner input = new Scanner(System.in);
         System.out.print("Introduce un número entero: ");
         int n = input.nextInt();
-        for (int i = n; i >= 1; i--) {
-            for (int h = 1; h <= i; h++) {
+        for (int columnas = n; columnas >= 1; columnas--) {
+            for (int filas = 1; filas <= columnas; filas++) {
                 System.out.print("* ");
             }
             System.out.println();
