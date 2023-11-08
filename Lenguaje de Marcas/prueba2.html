@@ -1,61 +1,89 @@
 <!DOCTYPE html>
+<!-- Esto le dice al navegador que el documento es HTML -->
 <html>
-<meta charset="utf-8"/>
-<head>
-</head>
-    <body>
-        <a href="https://www.e-itaca.es" target="_blank">Pincha aquí
-            <br>
-            <img src="/Lenguaje de Marcas/Ejercicios/RepositorioImágenes/logo-150.png">
-        </a>
-        <br>
-        <em>texto</em>
-        <s>texto2</s>
-        <strong>texto</strong>
-        <small>texto small</small>
-        <br>
-        <hr> 
-        <form>
-            <label>¿Cuál es tu nombre?</label>
-            <br>
-            <input type="text" placeholder="Escribe aquí" required>
-            <br>
-            <label>¿Cuál es tu contraseña?</label>
-            <br>
-            <input type="password" placeholder="Inserta tu contraseña" required>
-            <br>
-            <label>¿Cuál es tu email?</label>
-            <br>
-            <input type="email" placeholder="Inserta tu email" required>
-            <br>
-            <br>
-            <input type="datetime-local" placeholder="Inserta tu datetime" required>
-            <br>
-            <br>
-            <input type="file" placeholder="Inserta tu imagen" required>  
-            <br>
-            <button type="submit">ENVIAR</button>
-            <br>
-            <input type="radio" checked name="grupo">Opcion1
-            <br>
-            <input type="radio" name="grupo">Opcion2
-            <br>
-            <select name="select">
-                <option value="videojuego">Pack videojuego</option>
-                <option value="libro">Pack libros</option>
-                <option value="pelicula">Pack película</option>
-            </select>
-            <br>
-            <input type="checkbox">Esto es un checkbox1
-            <br>
-            <input type="checkbox">Esto es un checkbox2
-            <br>
-            <input type="checkbox">Esto es un checkbox2
-            <footer>
-                asdfasdfadsfasdfa
-            </footer>
-        </form>
-    </body>
-
-
+  <!-- Esto marca el inicio del documento HTML -->
+  <meta charset="utf-8" />
+  <!-- Esto define el conjunto de caracteres para el documento -->
+  <head>
+    <!-- Esta es la cabeza del documento, pero está vacía en este caso -->
+  </head>
+  <body>
+    <!-- Esto marca el inicio del cuerpo del documento, donde va todo el contenido visible -->
+    <a href="https://www.e-itaca.es" target="_blank">
+      <!-- Esto es un enlace a una página web. Cuando haces clic en él, se abre en una nueva pestaña -->
+      Pincha aquí
+      <!-- Esto es el texto del enlace -->
+      <br />
+      <!-- Esto crea un salto de línea -->
+      <img
+        src="/Lenguaje de Marcas/Ejercicios/RepositorioImágenes/logo-150.png"
+      />
+      <!-- Esto es una imagen. Su ruta está especificada en el atributo 'src' -->
+    </a>
+    <br />
+    <em>texto</em>
+    <!-- Esto hace que el texto aparezca en cursiva -->
+    <s>texto2</s>
+    <!-- Esto tacha el texto -->
+    <strong>texto</strong>
+    <!-- Esto hace que el texto aparezca en negrita -->
+    <small>texto small</small>
+    <!-- Esto hace que el texto aparezca más pequeño -->
+    <br />
+    <hr />
+    <!-- Esto crea una línea horizontal -->
+    <form>
+      <!-- Esto marca el inicio de un formulario -->
+      <label>¿Cuál es tu nombre?</label>
+      <!-- Esto es una etiqueta para un campo de entrada -->
+      <br />
+      <input type="text" placeholder="Escribe aquí" required />
+      <!-- Esto es un campo de entrada de texto. El texto 'Escribe aquí' aparecerá en el campo hasta que empieces a escribir -->
+      <br />
+      <label>¿Cuál es tu contraseña?</label>
+      <br />
+      <input type="password" placeholder="Inserta tu contraseña" required />
+      <!-- Esto es un campo de entrada de contraseña. Lo que escribas aquí aparecerá como puntos para mantener la contraseña oculta -->
+      <br />
+      <label>¿Cuál es tu email?</label>
+      <br />
+      <input type="email" placeholder="Inserta tu email" required />
+      <!-- Esto es un campo de entrada de correo electrónico -->
+      <br />
+      <br />
+      <input type="datetime-local" placeholder="Inserta tu datetime" required />
+      <!-- Esto es un campo de entrada de fecha y hora -->
+      <br />
+      <br />
+      <input type="file" placeholder="Inserta tu imagen" required />
+      <!-- Esto es un campo de entrada de archivo. Se utiliza para subir archivos -->
+      <br />
+      <button type="submit">ENVIAR</button>
+      <!-- Esto es un botón que envía el formulario -->
+      <br />
+      <input type="radio" checked name="grupo" />Opcion1
+      <!-- Esto es un botón de opción. Solo puedes seleccionar uno de un grupo -->
+      <br />
+      <input type="radio" name="grupo" />Opcion2
+      <br />
+      <select name="select">
+        <!-- Esto es un menú desplegable. Puedes seleccionar una opción de la lista -->
+        <option value="videojuego">Pack videojuego</option>
+        <option value="libro">Pack libros</option>
+        <option value="pelicula">Pack película</option>
+      </select>
+      <br />
+      <input type="checkbox" />Esto es un checkbox1
+      <!-- Esto es una casilla de verificación. Puedes seleccionar varias de un grupo -->
+      <br />
+      <input type="checkbox" />Esto es un checkbox2
+      <br />
+      <input type="checkbox" />Esto es un checkbox2
+      <footer>
+        <!-- Esto es el pie de página del documento -->
+        asdfasdfadsfasdfa
+      </footer>
+    </form>
+  </body>
 </html>
+<!-- Esto marca el final del documento HTML -->

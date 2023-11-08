@@ -22,16 +22,19 @@ import java.util.Scanner;
 
 public class E14TablaDeMultiplicar {
     public static void main(String[] args) {
-        Scanner entrada = new Scanner(System.in);
-        int num;
-        do {
-            System.out.println("Introduce un valor entre 1 y 10");
-            num = entrada.nextInt();
-        } while (num < 1 || num > 10);
+        Scanner entrada = new Scanner(System.in); // Crea un objeto Scanner para leer la entrada del usuario
+        int num; // Declara la variable num
+        do { // Inicia un bucle do-while
+            System.out.println("Introduce un valor entre 1 y 10"); // Pide al usuario que introduzca un número entre 1 y
+                                                                   // 10
+            num = entrada.nextInt(); // Lee el número que el usuario introdujo y lo guarda en la variable num
+        } while (num < 1 || num > 10); // Continúa el bucle do-while mientras el número introducido no esté entre 1 y
+                                       // 10
 
-        System.out.println("La tabla de multiplicar del " + num + " es:");
-        for (int i = 0; i <= 10; i++) {
-            System.out.println(num + " x " + i + " = " + num * i);
+        System.out.println("La tabla de multiplicar del " + num + " es:"); // Imprime un mensaje que indica la tabla de
+                                                                           // multiplicar que se va a imprimir
+        for (int i = 0; i <= 10; i++) { // Este bucle controla el número de veces que se imprime la tabla de multiplicar
+            System.out.println(num + " x " + i + " = " + num * i); // Imprime la tabla de multiplicar
         }
     }
 }

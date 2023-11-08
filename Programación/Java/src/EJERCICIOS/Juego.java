@@ -20,7 +20,7 @@ En cada turno se debe contabilizar:
 
 Una vez muerto el luchador se debe mostrar la vida restante (estará en negativos) y el número de asaltos totales */
 
-import java.util.Scanner; 
+import java.util.Scanner;
 
 public class Juego {
     public static void main(String[] args) {
@@ -30,7 +30,7 @@ public class Juego {
         int bloqueosSeguidos = 0;
 
         while (vida > 0 && turnos < 15) {
-            int alturaAtaque = (int)(Math.random() * 3);
+            int alturaAtaque = (int) (Math.random() * 3);
             System.out.println("¡El monstruo ataca! ");
             System.out.println("Introduce la altura de bloqueo (0: baja, 1: media, 2: alta): ");
             int alturaBloqueo = entrada.nextInt();
@@ -46,7 +46,7 @@ public class Juego {
                     System.out.println("*****************************************************\n");
                 }
             } else {
-                int daño = (int)(Math.random() * 30) + 1;
+                int daño = (int) (Math.random() * 30) + 1;
                 vida = vida - daño;
                 bloqueosSeguidos = 0;
                 System.out.println("\n¡Has fallado el bloqueo! La altura correcta era: " + alturaAtaque);
@@ -56,6 +56,7 @@ public class Juego {
             System.out.println("Vida restante: " + vida);
             System.out.println("Número de turnos: " + turnos);
         }
-        System.out.println("Juego finalizado. Has terminado con " + vida + " puntos de vida después de " + turnos + " turnos");
+        System.out.println(
+                "Juego finalizado. Has terminado con " + vida + " puntos de vida después de " + turnos + " turnos");
     }
 }

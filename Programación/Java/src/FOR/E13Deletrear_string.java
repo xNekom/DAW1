@@ -7,10 +7,10 @@ Usar el bucle FOR */
 
 public class E13Deletrear_string {
     public static void main(String[] args) {
-        String frase = "Cuenta las letras que tiene este string con un bucle FOR";
-        for (int i = frase.length() - 1; i >= 0; i--) {
-            char caracter = frase.charAt(i);
-            System.out.println(caracter);
+        String frase = "Cuenta las letras que tiene este string con un bucle FOR"; // Declara una cadena de texto
+        for (int i = frase.length() - 1; i >= 0; i--) { // Este bucle recorre la cadena de texto de atrás hacia adelante
+            char caracter = frase.charAt(i); // Obtiene el carácter actual de la cadena de texto
+            System.out.println(caracter); // Imprime el carácter actual
         }
     }
 }
