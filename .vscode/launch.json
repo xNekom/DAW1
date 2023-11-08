@@ -1,0 +1,231 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Resultado_tres",
+            "request": "launch",
+            "mainClass": "EJERCICIOS.Resultado_tres",
+            "projectName": "ProgramacionDAW1"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "E10Calcular_suma",
+            "request": "launch",
+            "mainClass": "DO_WHILE.E10Calcular_suma",
+            "projectName": "ProgramacionDAW1"
+        },
+        {
+            "type": "java",
+            "name": "Comprendidos",
+            "request": "launch",
+            "mainClass": "EJERCICIOS.Comprendidos",
+            "projectName": "ProgramacionDAW1"
+        },
+        {
+            "type": "java",
+            "name": "Cuadrado_asteriscos",
+            "request": "launch",
+            "mainClass": "EJERCICIOS.Cuadrado_asteriscos",
+            "projectName": "ProgramacionDAW1"
+        },
+        {
+            "type": "java",
+            "name": "Juego",
+            "request": "launch",
+            "mainClass": "EJERCICIOS.Juego",
+            "projectName": "ProgramacionDAW1"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "EJERCICIOS.Main",
+            "projectName": "ProgramacionDAW1"
+        },
+        {
+            "type": "java",
+            "name": "Triángulo_asteriscos",
+            "request": "launch",
+            "mainClass": "EJERCICIOS.Triángulo_asteriscos",
+            "projectName": "ProgramacionDAW1"
+        },
+        {
+            "type": "java",
+            "name": "prueba",
+            "request": "launch",
+            "mainClass": "EJERCICIOS.prueba",
+            "projectName": "ProgramacionDAW1"
+        },
+        {
+            "type": "java",
+            "name": "E11Aprender_a_contar",
+            "request": "launch",
+            "mainClass": "FOR.E11Aprender_a_contar",
+            "projectName": "ProgramacionDAW1"
+        },
+        {
+            "type": "java",
+            "name": "E12Multiplos_7",
+            "request": "launch",
+            "mainClass": "FOR.E12Multiplos_7",
+            "projectName": "ProgramacionDAW1"
+        },
+        {
+            "type": "java",
+            "name": "E13Deletrear_string",
+            "request": "launch",
+            "mainClass": "FOR.E13Deletrear_string",
+            "projectName": "ProgramacionDAW1"
+        },
+        {
+            "type": "java",
+            "name": "E14TablaDeMultiplicar",
+            "request": "launch",
+            "mainClass": "FOR.E14TablaDeMultiplicar",
+            "projectName": "ProgramacionDAW1"
+        },
+        {
+            "type": "java",
+            "name": "E15Factorial",
+            "request": "launch",
+            "mainClass": "FOR.E15Factorial",
+            "projectName": "ProgramacionDAW1"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio_clase",
+            "request": "launch",
+            "mainClass": "FOR.Ejercicio_clase",
+            "projectName": "ProgramacionDAW1"
+        },
+        {
+            "type": "java",
+            "name": "prueba(1)",
+            "request": "launch",
+            "mainClass": "FOR.prueba",
+            "projectName": "ProgramacionDAW1"
+        },
+        {
+            "type": "java",
+            "name": "Condicionales",
+            "request": "launch",
+            "mainClass": "IF.Condicionales",
+            "projectName": "ProgramacionDAW1"
+        },
+        {
+            "type": "java",
+            "name": "Condicionales2",
+            "request": "launch",
+            "mainClass": "IF.Condicionales2",
+            "projectName": "ProgramacionDAW1"
+        },
+        {
+            "type": "java",
+            "name": "Condicionales3",
+            "request": "launch",
+            "mainClass": "IF.Condicionales3",
+            "projectName": "ProgramacionDAW1"
+        },
+        {
+            "type": "java",
+            "name": "E1Un_segundo_más",
+            "request": "launch",
+            "mainClass": "IF.E1Un_segundo_más",
+            "projectName": "ProgramacionDAW1"
+        },
+        {
+            "type": "java",
+            "name": "E2Un_día_más",
+            "request": "launch",
+            "mainClass": "IF.E2Un_día_más",
+            "projectName": "ProgramacionDAW1"
+        },
+        {
+            "type": "java",
+            "name": "E3Ventanilla_banco",
+            "request": "launch",
+            "mainClass": "IF.E3Ventanilla_banco",
+            "projectName": "ProgramacionDAW1"
+        },
+        {
+            "type": "java",
+            "name": "E4Nota_if",
+            "request": "launch",
+            "mainClass": "IF.E4Nota_if",
+            "projectName": "ProgramacionDAW1"
+        },
+        {
+            "type": "java",
+            "name": "Ordenar",
+            "request": "launch",
+            "mainClass": "IF.Ordenar",
+            "projectName": "ProgramacionDAW1"
+        },
+        {
+            "type": "java",
+            "name": "E8Juego",
+            "request": "launch",
+            "mainClass": "MATH.E8Juego",
+            "projectName": "ProgramacionDAW1"
+        },
+        {
+            "type": "java",
+            "name": "Main(1)",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "ProgramacionDAW1"
+        },
+        {
+            "type": "java",
+            "name": "E9String",
+            "request": "launch",
+            "mainClass": "STRING.E9String",
+            "projectName": "ProgramacionDAW1"
+        },
+        {
+            "type": "java",
+            "name": "E9StringProfe",
+            "request": "launch",
+            "mainClass": "STRING.E9StringProfe",
+            "projectName": "ProgramacionDAW1"
+        },
+        {
+            "type": "java",
+            "name": "E5Nota_switch",
+            "request": "launch",
+            "mainClass": "SWITCH.E5Nota_switch",
+            "projectName": "ProgramacionDAW1"
+        },
+        {
+            "type": "java",
+            "name": "Switch",
+            "request": "launch",
+            "mainClass": "SWITCH.Switch",
+            "projectName": "ProgramacionDAW1"
+        },
+        {
+            "type": "java",
+            "name": "E6Dato_par",
+            "request": "launch",
+            "mainClass": "WHILE.E6Dato_par",
+            "projectName": "ProgramacionDAW1"
+        },
+        {
+            "type": "java",
+            "name": "E7Elevado",
+            "request": "launch",
+            "mainClass": "WHILE.E7Elevado",
+            "projectName": "ProgramacionDAW1"
+        }
+    ]
+}
