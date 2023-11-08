@@ -1,0 +1,29 @@
+h3 {
+  color: yellow;
+}
+
+h4 {
+  color: bisque;
+}
+
+h5, .parrafo-tipo1{
+  font-size: 200px;
+}
+
+.parrafo-tipo1 {
+  color: darkgoldenrod;
+  background-color: black;
+  font-size: 100px;
+}
+
+.parrafo-tipo2 {
+  color: rgb(184, 11, 98);
+  background-color: rgb(0, 0, 0);
+  font-size: 30px;
+}
+
+#parrafoUnico1{
+  font-style: "Verdana";
+  font-size: 30px;
+  color: blueviolet;
+}
