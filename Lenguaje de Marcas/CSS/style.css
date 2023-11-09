@@ -1,28 +1,40 @@
+/*
+Los selectores definen sobre qué elementos se aplicará un conjunto de reglas CSS.
+En CSS los selectores se utilizan para delimitar los elementos HTML de nuestra página web a los que queremos aplicar estilo. 
+Hay una amplia variedad de selectores CSS, lo que permite una gran precisión a la hora de seleccionar elementos a los que 
+aplicar estilo.
+*/
+
 h3 {
-  color: yellow;
+  /*aplicamos la regla a un selector de tipo*/
+  color: yellow; /*esto es una propiedad cuyo valor es yellow*/
 }
 
 h4 {
   color: bisque;
 }
 
-h5, .parrafo-tipo1{
+h5,
+.parrafo-tipo1 {
+  /*puedo aplicar la regla a un selector de tipo y aun selector de clase*/
   font-size: 200px;
 }
 
 .parrafo-tipo1 {
+  /*esto es un selector de clase*/
   color: darkgoldenrod;
   background-color: black;
-  font-size: 100px;
+  font-size: 50px;
 }
 
 .parrafo-tipo2 {
   color: rgb(184, 11, 98);
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(115, 8, 8);
   font-size: 30px;
 }
 
-#parrafoUnico1{
+#parrafoUnico1 {
+  /*esto es un selector de id*/
   font-style: "Verdana";
   font-size: 30px;
   color: blueviolet;
