@@ -45,6 +45,7 @@
         "formulahendry.auto-rename-tag",
         "formulahendry.auto-close-tag",
         "almenon.arepl",
-        "endormi.2077-theme"
+        "endormi.2077-theme",
+        "ms-vscode.live-server"
     ]
 }

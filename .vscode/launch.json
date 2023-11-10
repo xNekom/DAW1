@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "resueltoCinco",
+            "request": "launch",
+            "mainClass": "EJERCICIOS.resueltoCinco",
+            "projectName": "ProgramacionDAW1"
+        },
+        {
+            "type": "java",
+            "name": "Resultado_cuatro",
+            "request": "launch",
+            "mainClass": "EJERCICIOS.Resultado_cuatro",
+            "projectName": "ProgramacionDAW1"
+        },
+        {
+            "type": "java",
             "name": "Resultado_dos",
             "request": "launch",
             "mainClass": "EJERCICIOS.Resultado_dos",

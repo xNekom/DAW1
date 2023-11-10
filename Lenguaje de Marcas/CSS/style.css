@@ -39,3 +39,28 @@ h5,
   font-size: 30px;
   color: blueviolet;
 }
+
+#gato {
+  border-style: solid;
+  border-color: brown;
+  border-width: 35px;
+  border-radius: 20px;
+  padding: 15px;
+  margin-top: 10px;
+}
+#gato2 {
+  border-style: solid;
+  border-color: brown;
+  border-width: 35px;
+  border-radius: 20px;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+#gato3 {
+  border-style: solid;
+  border-color: brown;
+  border-width: 35px;
+  border-radius: 20px;
+  padding: 15px;
+  margin-top: 10px; 
+}
