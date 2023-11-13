@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "E1Funciones",
+            "request": "launch",
+            "mainClass": "FUNCIONES.E1Funciones",
+            "projectName": "ProgramacionDAW1"
+        },
+        {
+            "type": "java",
+            "name": "Suma",
+            "request": "launch",
+            "mainClass": "FUNCIONES.Suma",
+            "projectName": "ProgramacionDAW1"
+        },
+        {
+            "type": "java",
+            "name": "Cuadrado_asteriscos_vacio",
+            "request": "launch",
+            "mainClass": "EJERCICIOS.Cuadrado_asteriscos_vacio",
+            "projectName": "ProgramacionDAW1"
+        },
+        {
+            "type": "java",
             "name": "resueltoCinco",
             "request": "launch",
             "mainClass": "EJERCICIOS.resueltoCinco",

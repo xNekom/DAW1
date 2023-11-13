@@ -15,7 +15,7 @@ public class Cuadrado_asteriscos {
 
         for (int columna = 0; columna < n; columna++) { // Este bucle controla el número de columnas en el cuadrado
             for (int fila = 0; fila < n; fila++) { // Este bucle controla el número de asteriscos en cada fila
-                System.out.print("* "); // Imprime un asterisco y un espacio en la misma línea
+                System.out.print("*  "); // Imprime un asterisco y un espacio en la misma línea
             }
             System.out.println(); // Imprime una línea en blanco para pasar a la siguiente fila
         }
