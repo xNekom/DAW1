@@ -1,0 +1,43 @@
+/* Establece la fuente para todo el cuerpo del documento */
+body {
+  font-family: "Arial", sans-serif;
+}
+
+/* Establece el ancho máximo para el contenedor principal */
+.container {
+  max-width: 800px;
+}
+
+/* Establece el estilo para los contenedores izquierdo y derecho */
+.left-container,
+.right-container {
+  float: left;
+  width: 40%;
+  margin: 10px;
+}
+
+/* Establece el estilo para las secciones izquierda y derecha */
+.left-section,
+.right-section {
+  margin: 50px;
+  padding: 20px;
+  border: 2px solid #333;
+  border-radius: 8px;
+  background-color: #f0f0f0;
+}
+
+/* Establece el estilo para el contenedor izquierdo */
+.left-container {
+  background-color: #add8e6; /* Color de fondo para el contenedor izquierdo */
+  border-style: solid;
+  border-color: brown;
+  margin: 5px;
+}
+
+/* Establece el estilo para el contenedor derecho */
+.right-container {
+  background-color: #90ee90; /* Color de fondo para el contenedor derecho */
+  border-style: solid;
+  border-color: rgb(79, 42, 165);
+  margin: 5px;
+}
