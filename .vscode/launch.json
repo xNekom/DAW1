@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "prueba",
+            "request": "launch",
+            "mainClass": "prueba",
+            "projectName": "ProgramacionDAW1"
+        },
+        {
+            "type": "java",
+            "name": "Main$resultadoUno",
+            "request": "launch",
+            "mainClass": "Main$resultadoUno",
+            "projectName": "ProgramacionDAW1"
+        },
+        {
+            "type": "java",
             "name": "E4SobrecargadaSuma",
             "request": "launch",
             "mainClass": "FUNCIONES.E4SobrecargadaSuma",
