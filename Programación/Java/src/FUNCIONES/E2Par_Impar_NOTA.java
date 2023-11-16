@@ -1,10 +1,12 @@
 package FUNCIONES;
+/*Seguimos con el código anterior. Hemos hecho una función que sabe sumar (o multiplicar) y nos devuelve el resultado de la operación.
+Hemos hecho una función que nos muestra por consola si un número es par o impar.
 
-/*En el código del ejercicio anterior añade una función llamada: "parImpar" que sea capaz de decir por consola si el número que se le pasa como parámetro es par o no. 
-Si el número es par mostrará un mensaje diciendo que es par, si el número es impar dirá que es impar, nada más. */
+Ayúdate de ambas funciones (desde el método main) para saber si la suma de dos números pedidos por consola es par o impar (quitando la parte decimal).*/
+
 import java.util.Scanner;
 
-public class E2Par_Impar {
+public class E2Par_Impar_NOTA {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         System.out.println("Introduce el primer número: ");
@@ -15,6 +17,7 @@ public class E2Par_Impar {
         parImpar((int) num2);
         double resultado = suma(num1, num2);
         System.out.println("El resultado de la suma es: " + resultado);
+        parImpar((int)resultado);
 
     }
 
@@ -29,4 +32,5 @@ public class E2Par_Impar {
             System.out.println("Número impar.");
         }
     }
+
 }

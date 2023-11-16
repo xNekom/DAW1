@@ -1,14 +1,12 @@
 package FUNCIONES;
 
-/*Crea una función sobrecarga de la función "suma" que calcule la suma de todos los números enteros menores de un número dado hasta el cero. También con los negativos. Debe devolver el resultado de la operación, no mostrarlo por consola.
-Añádela al código anterior
-
-Ej: a la función le paso un 4 y me devuelve un 10 (4+3+2+1);
-Ej: -3  --> -6 (-3 + -2 + -1)*/
+/*Usando una función llamada "suma", o como quieras, programa para que se pidan al usuario por consola
+2 números de tipo double y se sumen en una función que devuelva como parámetro un número de tipo "double".
+Debe haber una llamada a la función suma desde el método principal. */
 
 import java.util.Scanner;
 
-public class E4SobrecargadaSuma {
+public class Funciones {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         System.out.println("Introduce el primer número: ");
@@ -22,11 +20,4 @@ public class E4SobrecargadaSuma {
     public static double suma(double num1, double num2) { // Define la función suma que toma dos parámetros num1 y num2
         return num1 + num2; // Devuelve la suma de num1 y num2
     }
-    public static int suma(int numero) {
-            int resultado = 0;
-            for (int i = numero; i >= 0; i--) {
-                resultado += i;
-            }
-            return resultado;
-        }
 }

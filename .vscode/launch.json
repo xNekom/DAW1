@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "E4SobrecargadaSuma",
+            "request": "launch",
+            "mainClass": "FUNCIONES.E4SobrecargadaSuma",
+            "projectName": "ProgramacionDAW1"
+        },
+        {
+            "type": "java",
             "name": "E3Par_Impar_NOTA",
             "request": "launch",
             "mainClass": "FUNCIONES.E3Par_Impar_NOTA",
