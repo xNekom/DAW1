@@ -1,0 +1,45 @@
+.plantillah1 {
+  border-style: solid;
+  border-color: red;
+  width: fit-content;
+}
+.plantilla1 {
+  border-style: dashed;
+  border-color: yellow;
+  width: 242px;
+}
+#segundoDiv {
+  margin-top: 10px;
+  background-color: blueviolet;
+}
+.plantilla2 {
+  background-color: yellow;
+}
+.plantillah2 {
+  background-color: green;
+  width: fit-content;
+}
+
+h3 {
+  background-color: blue;
+  border-style: solid;
+  border-width: 10px;
+}
+
+.plantillah3 {
+  background-color: yellow;
+}
+
+#idh3 {
+  background-color: aqua;
+  border-width: 1px;
+}
+
+.imagen {
+  border-style: solid;
+  border-radius: 10px;
+}
+div {
+  border-style: solid;
+  border-radius: 10px;
+}

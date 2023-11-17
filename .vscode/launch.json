@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "E5Funciones2",
+            "request": "launch",
+            "mainClass": "FUNCIONES.E5Funciones2",
+            "projectName": "ProgramacionDAW1"
+        },
+        {
+            "type": "java",
+            "name": "E4SobrecargaSuma2",
+            "request": "launch",
+            "mainClass": "FUNCIONES.E4SobrecargaSuma2",
+            "projectName": "ProgramacionDAW1"
+        },
+        {
+            "type": "java",
+            "name": "E3SobrecargadaSuma",
+            "request": "launch",
+            "mainClass": "FUNCIONES.E3SobrecargadaSuma",
+            "projectName": "ProgramacionDAW1"
+        },
+        {
+            "type": "java",
             "name": "prueba",
             "request": "launch",
             "mainClass": "prueba",
