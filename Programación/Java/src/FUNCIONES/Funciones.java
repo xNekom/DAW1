@@ -21,4 +21,3 @@ public class Funciones {
         return num1 + num2; // Devuelve la suma de num1 y num2
     }
 }
-lñkasjdfñlkasjdflñkajsdflñkajsdfklñ
