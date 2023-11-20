@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "E2Par_Impar_NOTA",
+            "request": "launch",
+            "mainClass": "FUNCIONES.E2Par_Impar_NOTA",
+            "projectName": "ProgramacionDAW1"
+        },
+        {
+            "type": "java",
             "name": "E5Funciones2",
             "request": "launch",
             "mainClass": "FUNCIONES.E5Funciones2",
