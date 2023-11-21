@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "E6Es_vocal",
+            "request": "launch",
+            "mainClass": "FUNCIONES.E6Es_vocal",
+            "projectName": "ProgramacionDAW1"
+        },
+        {
+            "type": "java",
             "name": "E2Par_Impar_NOTA",
             "request": "launch",
             "mainClass": "FUNCIONES.E2Par_Impar_NOTA",
