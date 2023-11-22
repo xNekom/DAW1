@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Funciones",
+            "request": "launch",
+            "mainClass": "FUNCIONES.Funciones",
+            "projectName": "ProgramacionDAW1"
+        },
+        {
+            "type": "java",
             "name": "E9deBinarioADecimal",
             "request": "launch",
             "mainClass": "FUNCIONES.E9deBinarioADecimal",

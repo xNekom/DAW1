@@ -1,10 +1,10 @@
-package FUNCIONES;
+package EJERCICIOS;
 
 /*Escribe un programa que lea una lista de diez números y haga un recuento de cuántos son positivos, y cuántos son negativos. Mostrará por consola el resultado. */
 
 import java.util.*;
 
-public class E8Recuento {
+public class Recuento {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         int pos = 0;

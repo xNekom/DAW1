@@ -1,10 +1,8 @@
-package FUNCIONES;
+package EJERCICIOS;
 
 /*Muestra 20 números enteros aleatorios entre 0 y 10 (ambos incluidos) separados por espacios. */
 
-import java.util.*;
-
-public class E7Random {
+public class Random {
     public static void main(String[] args) {
         int contador = 0;
         while (contador < 20) {
