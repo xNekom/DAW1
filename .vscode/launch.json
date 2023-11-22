@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "E7Random",
+            "request": "launch",
+            "mainClass": "FUNCIONES.E7Random",
+            "projectName": "ProgramacionDAW1"
+        },
+        {
+            "type": "java",
             "name": "E6Es_vocal",
             "request": "launch",
             "mainClass": "FUNCIONES.E6Es_vocal",
