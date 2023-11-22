@@ -22,13 +22,11 @@ public class E9deBinarioADecimal {
         System.out.println("El número decimal correspondiente es: " + decimal);
     }
 
-    // Esta función convierte un número binario (en forma de cadena) a decimal
     public static int binarioaDecimal(String cadenaBinaria) {
         int decimal = 0;
         int n = cadenaBinaria.length();
         for (int i = 0; i < n; i++) {
-            char c = cadenaBinaria.charAt(i);
-            int bit = Character.getNumericValue(c);
+            int bit = cadenaBinaria.charAt(i) - '0';
             decimal += bit * Math.pow(2, n - 1 - i);
         }
         return decimal;
