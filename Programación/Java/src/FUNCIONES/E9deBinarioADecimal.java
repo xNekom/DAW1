@@ -13,12 +13,12 @@ Nota: para convertir un número en base 'X' a decimal se usa el teorema fundamen
 
 import java.util.Scanner;
 
-public class E9deBinarioADecimal {
+public class E9deBinarioADecimal { 
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         System.out.println("Introduce un número binario:");
-        String binaryString = entrada.nextLine();
-        int decimal = binarioaDecimal(binaryString);
+        String cadenaBinaria = entrada.nextLine();
+        int decimal = binarioaDecimal(cadenaBinaria);
         System.out.println("El número decimal correspondiente es: " + decimal);
     }
 

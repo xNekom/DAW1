@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "E9deBinarioADecimal",
+            "request": "launch",
+            "mainClass": "FUNCIONES.E9deBinarioADecimal",
+            "projectName": "ProgramacionDAW1"
+        },
+        {
+            "type": "java",
+            "name": "E8Recuento",
+            "request": "launch",
+            "mainClass": "FUNCIONES.E8Recuento",
+            "projectName": "ProgramacionDAW1"
+        },
+        {
+            "type": "java",
             "name": "E7Random",
             "request": "launch",
             "mainClass": "FUNCIONES.E7Random",
