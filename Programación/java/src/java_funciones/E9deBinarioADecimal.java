@@ -28,15 +28,15 @@ public class E9deBinarioADecimal {
     }
 
     // Esta función convierte un número binario (en forma de cadena) a decimal
-    public static int binaryToDecimal(String binaryString) {
+    public static int binaryToDecimal(String cadenaBinario) {
         // Inicializamos el número decimal a 0
         int decimal = 0;
         // Obtenemos la longitud de la cadena binaria
-        int n = binaryString.length();
+        int n = cadenaBinario.length();
         // Recorremos la cadena de derecha a izquierda
         for(int i = 0; i < n; i++) {
             // Obtenemos el bit en la posición i desde el final
-            char bit = binaryString.charAt(n - 1 - i);
+            char bit = cadenaBinario.charAt(n - 1 - i);
             // Si el bit es '1', lo sumamos al número decimal
             if(bit == '1') {
                 decimal += (int) Math.pow(2, i);
