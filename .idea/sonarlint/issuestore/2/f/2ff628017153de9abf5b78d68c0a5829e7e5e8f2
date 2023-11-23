@@ -1,0 +1,20 @@
+
+m	java:S1171"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³„´Ö8Ññİ¿1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÉÄª•8Óñİ¿1
+T
+java:S1135"2Complete the task associated to this TODO comment.(¯¦Š›üÿÿÿÿ8Ôòİ¿1
+F
+java:S2140!")Use "java.util.Random.nextInt()" instead.(à”–¾8ãòİ¿1
+G	java:S106""+Replace this use of System.out by a logger.(¢·ÿÓ8åòİ¿1
+G	java:S106#"+Replace this use of System.out by a logger.(ˆ÷Ä·8æòİ¿1
+G	java:S106'"+Replace this use of System.out by a logger.(ƒ¿·“8èòİ¿1
+G	java:S106,"+Replace this use of System.out by a logger.(˜ÑÙš8êòİ¿1
+G	java:S106-"+Replace this use of System.out by a logger.(êä¨Õ8ëòİ¿1
+G	java:S106."+Replace this use of System.out by a logger.(™éá·8ìòİ¿1
+F
+java:S21401")Use "java.util.Random.nextInt()" instead.(³„´Ö8íòİ¿1
+L	java:S1064"+Replace this use of System.out by a logger.(Ç„ã±üÿÿÿÿ8îòİ¿1
+F	java:S1065"+Replace this use of System.out by a logger.(“Ñî98ïòİ¿1
+L	java:S1068"+Replace this use of System.out by a logger.(éå®¦ÿÿÿÿÿ8ğòİ¿1
+G	java:S1069"+Replace this use of System.out by a logger.(Í¾ÿû8ñòİ¿1
+G	java:S106;"+Replace this use of System.out by a logger.(Ä¦æÿ8ñòİ¿1

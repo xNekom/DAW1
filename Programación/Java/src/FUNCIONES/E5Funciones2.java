@@ -47,7 +47,7 @@ public class E5Funciones2 {
         year = entrada.nextInt();
 
         resultado = fechaValida(day, month, year); // Llama al segundo método suma y almacena el resultado en la
-                                                   // variable resultado2
+        // variable resultado2
         if (resultado == true) {
             System.out.println("La fecha es correcta.");
         } else {
