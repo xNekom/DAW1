@@ -11,8 +11,6 @@ t
 DProgramación/java/src/java_funciones/E9deBinarioADecimal_Profe.java,6\e\6e8ee513d0e7f5806d836b319416c08dea3ba398
 k
 ;Programación/java/src/java_funciones/E2Par_Impar_NOTA.java,7\d\7d1d9425b7779eda7fa71f3075c000da1a54ac04
-s
-CProgramación/java/src/java_funciones/E9deBinarioADecimalProfe.java,e\d\edee2530b7adb3a63a5bcc5185731123fff27b69
 g
 7Programación/java/src/java_funciones/E5Funciones2.java,7\a\7afd98fc823fb10244a78ec13d08896f5fde6b7f
 i
