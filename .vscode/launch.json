@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Juego",
+            "request": "launch",
+            "mainClass": "java_ejercicios.Juego",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "Funciones",
             "request": "launch",
             "mainClass": "FUNCIONES.Funciones",
