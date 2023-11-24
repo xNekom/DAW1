@@ -1,8 +1,7 @@
 package java_ejercicios;
 
 /*Dado el siguiente código, ¿cuál es el resultado en consola?*/
-
-import java.util.*;
+import java.util.Scanner;
 
 public class Resultado_tres {
     public static void main(String[] args) {

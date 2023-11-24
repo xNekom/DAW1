@@ -27,4 +27,4 @@ public class Resultado_uno {
     }
 }
 
-/*Este programa imprime una pirámide de números y asteriscos*/
+/* Este programa imprime una pirámide de números y asteriscos */

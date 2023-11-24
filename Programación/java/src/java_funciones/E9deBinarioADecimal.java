@@ -34,11 +34,11 @@ public class E9deBinarioADecimal {
         // Obtenemos la longitud de la cadena binaria
         int n = cadenaBinario.length();
         // Recorremos la cadena de derecha a izquierda
-        for(int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) {
             // Obtenemos el bit en la posición i desde el final
             char bit = cadenaBinario.charAt(n - 1 - i);
             // Si el bit es '1', lo sumamos al número decimal
-            if(bit == '1') {
+            if (bit == '1') {
                 decimal += (int) Math.pow(2, i);
             }
         }

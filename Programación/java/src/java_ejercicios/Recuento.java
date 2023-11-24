@@ -1,8 +1,7 @@
 package java_ejercicios;
 
 /*Escribe un programa que lea una lista de diez números y haga un recuento de cuántos son positivos, y cuántos son negativos. Mostrará por consola el resultado. */
-
-import java.util.*;
+import java.util.Scanner;
 
 public class Recuento {
     public static void main(String[] args) {

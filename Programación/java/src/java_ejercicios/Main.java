@@ -18,7 +18,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Introduce un número entero positivo como límite:"); 
+        System.out.println("Introduce un número entero positivo como límite:");
         int limite = scanner.nextInt();
 
         System.out.println("Introduce otro número entero positivo como divisor:");

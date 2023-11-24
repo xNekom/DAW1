@@ -5,16 +5,15 @@ Nota, la primera posición del string es la 0. */
 
 public class E9StringProfe {
     public static void main(String[] args) {
-        
+
         char caracter;
         int posición = 0;
-        String a= "Textodelstring.";
+        String a = "Textodelstring.";
         int b = a.length();
-        while (posición < b){
+        while (posición < b) {
             caracter = a.charAt(posición);
             posición++;
             System.out.println(caracter);
         }
     }
 }
-

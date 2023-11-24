@@ -17,7 +17,7 @@ public class E2Par_Impar_NOTA {
         parImpar((int) num2);
         double resultado = suma(num1, num2);
         System.out.println("El resultado de la suma es: " + resultado);
-        parImpar((int)resultado);
+        parImpar((int) resultado);
 
     }
 

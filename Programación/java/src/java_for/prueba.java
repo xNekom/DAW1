@@ -12,7 +12,7 @@ public class prueba {
         System.out.println("Introduce un número: ");
         int num = entrada.nextInt();
         int factorial = 1;
-        for(int i = num; i > 0; i--) {
+        for (int i = num; i > 0; i--) {
             factorial *= i;
         }
         System.out.println("El factorial de " + num + " es: " + factorial);

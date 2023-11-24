@@ -12,7 +12,8 @@ public class E9deBinarioADecimal_Profe {
         System.out.println("El equivalente decimal es: " + decimal);
     }
 
-    // Este método es el que realiza la conversión real. Se basa en el siguiente algoritmo:
+    // Este método es el que realiza la conversión real. Se basa en el siguiente
+    // algoritmo:
     // 1. Inicializa las variables.
     static int convierteADecimal(String binario) {
 
@@ -26,9 +27,9 @@ public class E9deBinarioADecimal_Profe {
 
         // 3. Itera sobre el número binario.
         // Para cada dígito binario:
-        //    * Obtiene el dígito binario como un número entero.
-        //    * Multiplica el dígito binario por la potencia de 2 correspondiente.
-        //    * Suma el resultado al número decimal.
+        // * Obtiene el dígito binario como un número entero.
+        // * Multiplica el dígito binario por la potencia de 2 correspondiente.
+        // * Suma el resultado al número decimal.
 
         int decimal = 0;
         for (int i = 0; i < longitud; i++) {

@@ -19,7 +19,7 @@ public class E6Es_vocal {
 
     public static String esVocal(char vocal) {
         if (vocal == 'a' || vocal == 'e' || vocal == 'i' || vocal == 'o' || vocal == 'u' ||
-            vocal == 'A' || vocal == 'E' || vocal == 'I' || vocal == 'O' || vocal == 'U') {
+                vocal == 'A' || vocal == 'E' || vocal == 'I' || vocal == 'O' || vocal == 'U') {
             return "Es vocal";
         } else {
             return "No es vocal, es consonante";
