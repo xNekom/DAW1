@@ -20,15 +20,15 @@ public class E9deBinarioADecimal {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Introduce un número binario:");
-        String binaryString = scanner.nextLine();
+        String cadenaBinario = scanner.nextLine();
         // Convertimos el número binario a decimal utilizando nuestra función
-        int decimal = binaryToDecimal(binaryString);
+        int decimal = binarioADecimal(cadenaBinario);
         // Imprimimos el resultado
         System.out.println("El número decimal correspondiente es: " + decimal);
     }
 
     // Esta función convierte un número binario (en forma de cadena) a decimal
-    public static int binaryToDecimal(String cadenaBinario) {
+    public static int binarioADecimal(String cadenaBinario) {
         // Inicializamos el número decimal a 0
         int decimal = 0;
         // Obtenemos la longitud de la cadena binaria

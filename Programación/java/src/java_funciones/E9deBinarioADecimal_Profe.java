@@ -55,7 +55,7 @@ public class E9deBinarioADecimal_Profe {
     }
 
     // Este método calcula la potencia de un número base elevado a un exponente.
-    static int potencia(int base, int exponente) {
+    static int potencia(int base, int  exponente) {
 
         // Declara la variable aux.
         int aux = 1;
