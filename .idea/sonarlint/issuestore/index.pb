@@ -135,3 +135,5 @@ r
 BProgramación/java/src/java_ejercicios/funcionDiferenciaHoras.java,a\6\a66d43f2232ead2280d7b33ea15ed1cf16bce9b7
 i
 9Programación/java/src/java_ejercicios/numerosAmigos.java,3\3\330b1709acff3c3b766c5cb1c44d117eedeba20d
+e
+5Programación/java/src/java_ejercicios/Recangulo.java,4\6\46523033658fd48c197f331a55a583bfc91b20b7
