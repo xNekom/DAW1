@@ -45,8 +45,6 @@ O
 Programación/java/bin/DAW1.iml,8\8\884adfbacbd949fbfe8e3cf988f055ff25c61c48
 d
 4Programación/java/src/java_ejercicios/Recuento.java,e\a\ea9068ec8231c40a1e0961b196bd20748479fd31
-`
-0Programación/java/src/java_ejercicios/Main.java,1\d\1d0e513166d62b031ed055933a357f6901e42fa4
 b
 2Programación/java/src/java_ejercicios/Random.java,7\3\7378696fe129df6ee204bfa0d63ce7de2205c5ae
 8
@@ -137,3 +135,5 @@ i
 9Programación/java/src/java_ejercicios/numerosAmigos.java,3\3\330b1709acff3c3b766c5cb1c44d117eedeba20d
 e
 5Programación/java/src/java_ejercicios/Recangulo.java,4\6\46523033658fd48c197f331a55a583bfc91b20b7
+b
+2Programación/java/src/java_ejercicios/prueba.java,e\b\ebbe0a42f38046e15ccb5bb8c56218e350399582
