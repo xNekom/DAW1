@@ -1,4 +1,8 @@
 
-n	java:S101	"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÇêÛ³şÿÿÿÿ8î·Î³Â1
+n	java:S101	"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÇêÛ³şÿÿÿÿ8ëó¨öÂ1
 Y
-java:S2589"7Remove this expression which always evaluates to "true"(ÈöŠûÿÿÿÿ8û·Î³Â1
+java:S2589"7Remove this expression which always evaluates to "true"(ÈöŠûÿÿÿÿ8²÷ÊöÂ1
+L	java:S106"+Replace this use of System.out by a logger.(›çá©øÿÿÿÿ8›ô¨öÂ1
+L	java:S106"+Replace this use of System.out by a logger.(‹µ‹¶ıÿÿÿÿ8¿÷ÊöÂ1
+G	java:S106"+Replace this use of System.out by a logger.(×•œ²8À÷ÊöÂ1
+L	java:S106"+Replace this use of System.out by a logger.(ÂÁş‡ıÿÿÿÿ8Á÷ÊöÂ1

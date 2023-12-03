@@ -137,3 +137,17 @@ e
 5Programación/java/src/java_ejercicios/Recangulo.java,4\6\46523033658fd48c197f331a55a583bfc91b20b7
 b
 2Programación/java/src/java_ejercicios/prueba.java,e\b\ebbe0a42f38046e15ccb5bb8c56218e350399582
+m
+=Programación/java/src/java_ejercicios/Rectángulo_vacio.java,1\5\153236107b9d1c5eb370d915f60a2711887f1fa0
+l
+<Programación/java/src/java_ejercicios/Rectangulo_vacio.java,2\1\2167fb894c4d28aac504252cafece0c21251fa78
+e
+5Programación/java/src/ejercicios_mouredev/Reto0.java,5\d\5dfc5b5d1445fd1cd5ecdda9fd0fb4838cbb9adc
+e
+5Programación/java/src/ejercicios_mouredev/Reto1.java,4\7\475e049bbe0d0dd6e495f81daaebb7bd8eee5482
+e
+5Programación/java/src/ejercicios_mouredev/Reto2.java,7\5\75b2df81f23730261d1031981ca031de12c6c967
+e
+5Programación/java/src/ejercicios_mouredev/Reto3.java,1\7\17c548bd185f7c0d9fcf47b60d4ab6a4de6bf1a2
+f
+6Programación/java/src/ejercicios_mouredev/prueba.java,8\5\859b7d4d8d12a669185e7d0fcd2abc12b98b03e9

@@ -6,10 +6,17 @@ public class prueba {
     public static void main(String[] args) {
 
         //Declaramos las variables
-        double precio = 39.99;
-        double precioIVA = precio * 21 / 100;
-        double precioFinal = precio + precioIVA;
-        System.out.println("El precio del producto con IVA es: " + precioFinal + " €");
+        int a = 0;
+        do {
+            for (int b = 0; b <= 6; b++) {
+                System.out.print("* ");
+                if (b == 6) {
+                    System.out.println();
+                     a++;
+                }
+            }
+        }
+        while (a <= 2);
     }
 }
 
