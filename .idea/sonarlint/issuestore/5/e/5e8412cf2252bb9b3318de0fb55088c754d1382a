@@ -1,16 +1,0 @@
-
-t	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ8‡ÿá¡Ã1
-t	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(¯ÀÚè8‰ÿá¡Ã1
-t	java:S1279"XRefactor the code in order to not assign to this loop counter from within the loop body.(¶´ïÃ8‰ÿá¡Ã1
-9
-java:S1643"Use a StringBuilder instead.(ˆ‰Ó½8‹ÿá¡Ã1
-9
-java:S1643"Use a StringBuilder instead.(°È¡•8îñë¡Ã1
->
-java:S16434"Use a StringBuilder instead.(¨äÛùÿÿÿÿ8ù¤ü¡Ã1
-o
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 78 to the 15 allowed.(Çµí‘8­»Ñ¡Ã1
-G	java:S106>"+Replace this use of System.out by a logger.(¾³¤ú8Ý—û¡Ã1
-C
-java:S1128
-"&Remove this unused import 'java.util'.(Î€ŒÙ8Ÿ®ü¡Ã1

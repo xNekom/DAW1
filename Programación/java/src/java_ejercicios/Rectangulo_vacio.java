@@ -17,9 +17,9 @@ public class Rectangulo_vacio {
                 if (fila == 0 ||  fila == altura -1 || columna == 0 || columna == anchura - 1) { // Si la fila o la columna actual
                     // es la primera o la última,
                     // imprime un asterisco
-                    System.out.print("*  ");
+                    System.out.print("*");
                 } else { // De lo contrario, imprime dos espacio en blanco
-                    System.out.print("   ");
+                    System.out.print(" ");
                 }
             }
             System.out.println(); // Imprime una nueva línea después de cada fila
