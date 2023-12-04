@@ -137,8 +137,6 @@ e
 5Programación/java/src/java_ejercicios/Recangulo.java,4\6\46523033658fd48c197f331a55a583bfc91b20b7
 b
 2Programación/java/src/java_ejercicios/prueba.java,e\b\ebbe0a42f38046e15ccb5bb8c56218e350399582
-m
-=Programación/java/src/java_ejercicios/Rectángulo_vacio.java,1\5\153236107b9d1c5eb370d915f60a2711887f1fa0
 l
 <Programación/java/src/java_ejercicios/Rectangulo_vacio.java,2\1\2167fb894c4d28aac504252cafece0c21251fa78
 e
@@ -151,3 +149,9 @@ e
 5Programación/java/src/ejercicios_mouredev/Reto3.java,1\7\17c548bd185f7c0d9fcf47b60d4ab6a4de6bf1a2
 f
 6Programación/java/src/ejercicios_mouredev/prueba.java,8\5\859b7d4d8d12a669185e7d0fcd2abc12b98b03e9
+e
+5Programación/java/src/ejercicios_mouredev/Reto4.java,f\8\f88e5edca1b8cdbb5d0d71a4e3d7d6c244163b79
+e
+5Programación/java/src/ejercicios_mouredev/Reto6.java,3\c\3c658b654447144e782a5829b592c52b24d68c92
+e
+5Programación/java/src/ejercicios_mouredev/Reto7.java,5\e\5e8412cf2252bb9b3318de0fb55088c754d1382a
