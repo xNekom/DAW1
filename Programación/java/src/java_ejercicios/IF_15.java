@@ -45,14 +45,12 @@ public class IF_15 {
             if (objetos < 3) {
                 System.out.println("Por favor, diríjase a las cajas 1 y 2.");
             }
-        } else if (objetos >= 10 && objetos < 50) {
+        } else if (objetos >= 10) {
             if (carroGrande) {
                 System.out.println("Por favor, diríjase a las cajas 12 y 14.");
             } else {
                 System.out.println("Por favor, diríjase a las cajas 10 y 11.");
             }
-        } else {
-            System.out.println("Lo siento, no podemos atender su compra en este momento.");
         }
     }
 }
