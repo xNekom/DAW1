@@ -4,8 +4,6 @@ h
 g
 7Lenguaje de Marcas/HTML/Ejercicios/Ejercicio3/style.css,d\c\dc51040ba5e0f6cedfe52773b86501ba060d1324
 n
->Programación/Java/src/java_funciones/E9deBinarioADecimal.java,8\b\8b87903fd235ca2650d36b4677580eabea3c6be0
-n
 >Programación/java/src/java_funciones/E9deBinarioADecimal.java,0\a\0aa2a2864310ea97d088af6890cafbd2e6c92c8d
 t
 DProgramación/java/src/java_funciones/E9deBinarioADecimal_Profe.java,6\e\6e8ee513d0e7f5806d836b319416c08dea3ba398
@@ -133,15 +131,11 @@ r
 BProgramación/java/src/java_ejercicios/funcionDiferenciaHoras.java,a\6\a66d43f2232ead2280d7b33ea15ed1cf16bce9b7
 i
 9Programación/java/src/java_ejercicios/numerosAmigos.java,3\3\330b1709acff3c3b766c5cb1c44d117eedeba20d
-e
-5Programación/java/src/java_ejercicios/Recangulo.java,4\6\46523033658fd48c197f331a55a583bfc91b20b7
 b
 2Programación/java/src/java_ejercicios/prueba.java,e\b\ebbe0a42f38046e15ccb5bb8c56218e350399582
-g
-7Programación/java/src/java_ejercicios/Rectángulo.java,2\1\212f9312d248681ce96d14b8b2ce5923b8f7ce6f
 f
 6Programación/java/src/java_ejercicios/Rectangulo.java,0\3\03a04765ac222e28b4dbf5417a3f438fe3b389c2
 l
 <Programación/java/src/java_ejercicios/Rectangulo_vacio.java,2\1\2167fb894c4d28aac504252cafece0c21251fa78
 a
-1Programación/java/src/java_ejercicios/IF_15.java,1\b\1b7969dd7a6bb267e30223efb5d0b71f98f4d7e6
+1Programación/java/src/java_ejercicios/IF_15.java,1/b/1b7969dd7a6bb267e30223efb5d0b71f98f4d7e6

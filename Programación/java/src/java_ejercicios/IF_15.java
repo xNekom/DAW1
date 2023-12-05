@@ -6,34 +6,53 @@ A los que llevan menos de 10 objetos el ordenador los manda a las cajas de autop
 A los que llevan el carro mediano con más de 10 objetos van a las cajas 10 y 11 y a los que llevan carro grande a las cajas 12 y 14.
 En el super hay una sola fila con una pantalla que va mostrando mensajes según van llegando los carros para redirigirlos
 */
+
 import java.util.Scanner;
 
 import java.util.Scanner;
 
 public class IF_15 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Ingrese la cantidad de objetos que lleva en su carro: ");
-        int objetos = sc.nextInt();
-        System.out.print("Ingrese el tamaño de su carro (pequeño, mediano o grande): ");
-        String tamano = sc.next();
-        int caja = 0;
-        if (objetos < 10) {
-            caja = 1;
-            if (objetos < 3 && tamano.equals("pequeño")) {
-                caja = 2;
-            }
-        } else if (tamano.equals("mediano")) {
-            caja = 10;
-            if (objetos > 20) {
-                caja = 11;
-            }
-        } else if (tamano.equals("grande")) {
-            caja = 12;
-            if (objetos > 30) {
-                caja = 14;
-            }
+        dirigirClientes();
+        dirigirClientes();
+        dirigirClientes();
+        dirigirClientes();
+        dirigirClientes();
+        dirigirClientes();
+        dirigirClientes();
+        dirigirClientes();
+        dirigirClientes();
+    }
+
+    public static void dirigirClientes() {
+        // Declaración de la variable booleana carroGrande y asignación del valor true
+        boolean carroGrande;
+        carroGrande = true;
+
+        // Generación de un número aleatorio entre 0 y 99 y almacenamiento en la variable objetos
+        int objetos = (int) (Math.random() * 100);
+
+        // Si objetos es un número par, carroGrande se establece en true, de lo contrario, se establece en false
+        if ((objetos % 2) == 0) {
+            carroGrande = true;
+        } else {
+            carroGrande = false;
         }
-        System.out.println("Diríjase a la caja " + caja + ".");
+
+        // Evaluación del valor de objetos en una serie de declaraciones condicionales
+        if (objetos < 10) {
+            System.out.println("Por favor, diríjase a las cajas de autopago.");
+            if (objetos < 3) {
+                System.out.println("Por favor, diríjase a las cajas 1 y 2.");
+            }
+        } else if (objetos >= 10 && objetos < 50) {
+            if (carroGrande) {
+                System.out.println("Por favor, diríjase a las cajas 12 y 14.");
+            } else {
+                System.out.println("Por favor, diríjase a las cajas 10 y 11.");
+            }
+        } else {
+            System.out.println("Lo siento, no podemos atender su compra en este momento.");
+        }
     }
 }
