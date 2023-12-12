@@ -17,32 +17,41 @@ import java.util.Scanner;
 
 public class Reto100 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int[] valoresLetras;
-        valoresLetras = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27};
-        String alfabeto = "abcdefghijklmnñopqrstuvwxyz";
-        int totalPuntos = 0;
+        Scanner entrada = new Scanner(System.in);
 
-        while (totalPuntos != 100) {
-            System.out.println("Introduce una palabra:");
-            String palabra = scanner.nextLine();
+        int puntos = 0;
+        String palabra = "";
 
-            int puntosPalabra = 0;
-            for (int i = 0; i < palabra.length(); i++) {
-                char letra = palabra.charAt(i);
-                int indiceLetra = alfabeto.indexOf(letra);
-                int valorLetra = valoresLetras[indiceLetra];
-                puntosPalabra = puntosPalabra + valorLetra;
+        while (puntos != 100) {
+
+            System.out.print("Introduce una palabra: ");
+            palabra = entrada.next();
+
+            String copiaPalabra = palabra.toUpperCase();
+
+            for (int i = 0; i < copiaPalabra.length(); i++) {
+                int puntosLetra = 0;
+                for (int j = 65; j <= 90; j++) { // Empieza en la A y termina en la Z (en ASCII)
+                    puntosLetra++;
+                    if (copiaPalabra.charAt(i) == j) {
+                        puntos = puntos + puntosLetra;
+                        break;
+                    } else if (copiaPalabra.charAt(i) == 'Ñ') {
+                        puntos = puntos + 15;
+                        break;
+                    }
+                    if (j == 78) { // Cuando llega a la Ñ
+                        puntosLetra++;
+                    }
+                }
             }
+            System.out.println("La palabra " + palabra + " vale " + puntos + " puntos");
+            if (puntos != 100) {
 
-            totalPuntos = puntosPalabra;
-            System.out.println("Los puntos de la palabra " + palabra + " son: " + puntosPalabra);
-
-            if (totalPuntos == 100) {
-                System.out.println("¡Felicidades! Has alcanzado los 100 puntos.");
-            } else {
-                System.out.println("Tu puntuación es de " + totalPuntos + " puntos. Sigue intentándolo.");
+                puntos = 0;
             }
         }
+        System.out.println("¡ENHORABUENA!");
+        entrada.close();
     }
 }
