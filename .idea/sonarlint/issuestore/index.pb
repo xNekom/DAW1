@@ -141,3 +141,11 @@ a
 1Programación/java/src/java_ejercicios/IF_15.java,1\b\1b7969dd7a6bb267e30223efb5d0b71f98f4d7e6
 g
 7Programación/java/src/ejercicios_mouredev/Reto100.java,5\4\54bcf78a932ef480aac3832a2a8a0d97810647f2
+l
+<Programación/java/src/java_ejercicios/Divisores_Primos.java,6\e\6e83ed0c15a729f7a77603db7a3cd7436daf8788
+k
+;Programación/java/src/java_ejercicios/divisoresPrimos.java,b\7\b7dbce86233721c8ecd7a0551df16af1da5d20f4
+k
+;Programación/java/src/java_ejercicios/dirigirClientes.java,8\6\86f2f85cc26e921aa4e6bb728be95befbf499472
+h
+8Programación/java/src/java_ejercicios/supermercado.java,a\b\abed7d258b33a174b2802ddf1097318bb138540e
