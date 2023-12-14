@@ -39,7 +39,7 @@ public class supermercado {
             if (objetos < 3) {
                 System.out.println("Por favor, diríjase a las cajas 1 y 2.");
             }
-        } else if (objetos >= 10) {
+        } else {
             if (carroGrande) {
                 System.out.println("Por favor, diríjase a las cajas 12 y 14.");
             } else {
