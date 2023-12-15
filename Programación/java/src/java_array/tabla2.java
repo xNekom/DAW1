@@ -7,7 +7,6 @@ import java.util.Scanner;
 
 public class tabla2 {
     public static void main(String[] args) {
-        // Declaramos las variables
         int n;
         int totalPositivos = 0;
         int totalNegativos = 0;
@@ -20,13 +19,11 @@ public class tabla2 {
         n = entrada.nextInt();
         int[] numeros = new int[n];
 
-        // Leemos los números del usuario
         for (int i = 0; i < n; i++) {
             System.out.println("Introduce el número " + (i + 1) + ": ");
             numeros[i] = entrada.nextInt();
         }
 
-        // Calculamos las medias
         for (int i = 0; i < n; i++) {
             if (numeros[i] > 0) {
                 totalPositivos += numeros[i];
@@ -44,7 +41,6 @@ public class tabla2 {
         double mediaPositivos = (double) totalPositivos / contadorPositivos;
         double mediaNegativos = (double) totalNegativos / contadorNegativos;
 
-        // Mostramos los resultados
         System.out.println("La media de los positivos es: " + mediaPositivos);
         System.out.println("La media de los negativos es: " + mediaNegativos);
         System.out.println("El número de ceros introducidos es: " + totalCeros);
