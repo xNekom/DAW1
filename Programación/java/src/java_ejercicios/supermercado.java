@@ -1,4 +1,5 @@
 package java_ejercicios;
+
 public class supermercado {
     public static void main(String[] args) {
         dirigirClientes();
@@ -20,18 +21,17 @@ public class supermercado {
         boolean carroGrande;
         carroGrande = true;
 
-
-        // Generación de un número aleatorio entre 0 y 99 y almacenamiento en la variable objetos
+        // Generación de un número aleatorio entre 0 y 99 y almacenamiento en la
+        // variable objetos
         int objetos = (int) (Math.random() * 100);
 
-
-        // Si objetos es un número par, carroGrande se establece en true, de lo contrario, se establece en false
+        // Si objetos es un número par, carroGrande se establece en true, de lo
+        // contrario, se establece en false
         if ((objetos % 2) == 0) {
             carroGrande = true;
         } else {
             carroGrande = false;
         }
-
 
         // Evaluación del valor de objetos en una serie de declaraciones condicionales
         if (objetos < 10) {
@@ -48,5 +48,3 @@ public class supermercado {
         }
     }
 }
-
-

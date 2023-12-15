@@ -1,4 +1,5 @@
 package ejercicios_mouredev;
+
 /*
  * Crea una única función (importante que sólo sea una) que sea capaz
  * de calcular y retornar el área de un polígono.
@@ -62,5 +63,3 @@ class Reto4 {
         System.out.println("Área del rectángulo: " + rectangulo.area());
     }
 }
-
-

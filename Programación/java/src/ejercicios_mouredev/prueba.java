@@ -12,10 +12,9 @@ public class prueba {
                     contadorDivisores++;
                 }
             }
-            if (contadorDivisores == 2){
+            if (contadorDivisores == 2) {
                 System.out.println("Número primo; " + numero);
-            }
-            else {
+            } else {
                 System.out.println(numero);
             }
         }

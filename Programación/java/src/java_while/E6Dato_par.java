@@ -9,12 +9,12 @@ public class E6Dato_par {
         Scanner entrada = new Scanner(System.in);
         System.out.println("Introduce un número:");
         int num = entrada.nextInt();
-        
-        while (num % 2 == 0) { 
+
+        while (num % 2 == 0) {
             System.out.println("Número par");
             System.out.println("Introduce otro número: ");
             num = entrada.nextInt();
-            }
-            System.out.println("Dato impar, fin del programa.");
         }
+        System.out.println("Dato impar, fin del programa.");
     }
+}

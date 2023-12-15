@@ -1,4 +1,5 @@
 package ejercicios_mouredev;
+
 /*
  * Crea un programa que cuente cuantas veces se repite cada palabra
  * y que muestre el recuento final de todas ellas.
@@ -24,7 +25,8 @@ public class Reto7 {
                 for (int j = i; j < length; j++) {
                     if (texto.charAt(j) != ' ' && texto.charAt(j) != '\t' && texto.charAt(j) != '\n') {
                         String otraPalabra = "";
-                        while (j < length && texto.charAt(j) != ' ' && texto.charAt(j) != '\t' && texto.charAt(j) != '\n') {
+                        while (j < length && texto.charAt(j) != ' ' && texto.charAt(j) != '\t'
+                                && texto.charAt(j) != '\n') {
                             otraPalabra += texto.charAt(j);
                             j++;
                         }

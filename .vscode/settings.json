@@ -1,4 +1,5 @@
 {
     "java.debug.settings.onBuildFailureProceed": true,
-    "cSpell.language": "en,es-ES,en-US"
+    "cSpell.language": "en,es-ES,en-US",
+    "java.format.settings.url": "eclipse-formatter.xml"
 }

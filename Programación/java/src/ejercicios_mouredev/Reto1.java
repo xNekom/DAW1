@@ -1,4 +1,5 @@
 package ejercicios_mouredev;
+
 /*
  * Escribe una función que reciba dos palabras (String) y retorne
  * verdadero o falso (Bool) según sean o no anagramas.

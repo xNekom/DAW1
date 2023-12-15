@@ -20,16 +20,16 @@ import java.util.Scanner;
 public class E3Ventanilla_banco {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-		
-		// Preguntar tipo de cliente
+
+        // Preguntar tipo de cliente
         System.out.println("Introduce el tipo de cliente (1: Jubilados, 2: Menores de edad, 3: No jubilados):");
         int tipoCliente = scanner.nextInt();
 
-		// Preguntar tipo de solicitud
+        // Preguntar tipo de solicitud
         System.out.println("Introduce el tipo de solicitud (1: Sacar dinero, 2: Ingresar dinero):");
         int tipoSolicitud = scanner.nextInt();
 
-		// Condicionales
+        // Condicionales
         if (tipoCliente == 1) {
             if (tipoSolicitud == 1) {
                 System.out.println("Los jubilados sacan dinero en la ventanilla 10.");

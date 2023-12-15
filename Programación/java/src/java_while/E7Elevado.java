@@ -21,7 +21,8 @@ public class E7Elevado {
         System.out.println("Introduce la potencia: ");
         int potencia = entrada.nextInt();
 
-        // Mientras el contador sea menor que la potencia, multiplicamos resultado por base
+        // Mientras el contador sea menor que la potencia, multiplicamos resultado por
+        // base
         while (contador < potencia) {
             resultado = resultado * base;
             contador++;

@@ -3,6 +3,7 @@ package java_array;
 Escribir una aplicación que solicite al usuario cuántos números desea introducir. A continuación, introducir
 por teclado esa cantidad de números enteros, y por último, mostrar en el orden inverso al introducido.
 */
+
 import java.util.Scanner;
 
 public class tablaOrdenInverso {
