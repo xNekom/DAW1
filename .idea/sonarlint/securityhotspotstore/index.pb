@@ -151,3 +151,7 @@ h
 8Programación/java/src/java_array/construyeUnaTabla.java,1\d\1d7c8ebbf6b7fc12bc71a1a85dae2c3e72943118
 ]
 -Programación/java/src/java_array/tabla1.java,0\f\0f2072d1b67da7f02a66dd1fad3f43cffb24a2d3
+]
+-Programación/java/src/java_array/tabla2.java,a\3\a3b1fc10e9fd0f4dedf5b5b2257fe58e08a9dd05
+]
+-Programación/java/src/java_array/tabla3.java,f\3\f33ade461f1e18d6fa11acf19d16a8b4dbc2bad0
