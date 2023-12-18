@@ -157,3 +157,9 @@ h
 -Programación/java/src/java_array/tabla3.java,f\3\f33ade461f1e18d6fa11acf19d16a8b4dbc2bad0
 h
 8Programación/java/src/java_array/tablaOrdenInverso.java,7\1\712b6950f0a71ddd7ac1d7ff09dd0081f786fbd6
+n
+>Programación/java/src/java_array/funcionMaximoValorTabla.java,0\e\0ec951b5f3c027169fef9e5dcac7be2199dc51c4
+c
+3Programación/java/src/java_array/ordenarTabla.java,0\f\0f6aee0394edf75e75bda6828422e7dea84e5058
+f
+6Programación/java/src/java_array/aciertosLoteria.java,e\3\e36a1fca7911892bb81fa1b523816780d1b60475
