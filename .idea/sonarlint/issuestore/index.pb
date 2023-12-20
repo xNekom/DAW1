@@ -163,3 +163,9 @@ c
 3Programación/java/src/java_array/ordenarTabla.java,0\f\0f6aee0394edf75e75bda6828422e7dea84e5058
 f
 6Programación/java/src/java_array/aciertosLoteria.java,e\3\e36a1fca7911892bb81fa1b523816780d1b60475
+c
+3Programación/java/src/java_array/sinRepetidos.java,9\6\96e107b2720e050b72981ca6b6884a4f7ffda0c8
+i
+9Programación/java/src/java_array/tablasParesImpares.java,b\c\bc1fa9213dd014f9f98f132f9c79783aeee0f603
+n
+>Programación/java/src/java_array/insertarEnTablaOrdenada.java,f\b\fbb0adeb4b032cdf02e293edac3a20b3b4ed14b7
