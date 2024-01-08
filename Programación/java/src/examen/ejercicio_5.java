@@ -6,9 +6,9 @@ anchura y la altura del rectángulo se le pasarán como parámetros a la funció
 import java.util.Scanner;
 
 public class ejercicio_5 {
-    public static void pintarRectangulo(int anchura, int altura) {
+    public static void pintarRectangulo(int base, int altura) {
         for (int i = 0; i < altura; i++) {
-            for (int j = 0; j < anchura; j++) {
+            for (int j = 0; j < base; j++) {
                 System.out.print("* ");
             }
             System.out.println();
