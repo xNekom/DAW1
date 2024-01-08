@@ -1,19 +1,21 @@
 package examen;
-
+/*
+Desarrolla una función que sea capaz de "pintar" por consola un rectángulo relleno con asteriscos. La
+anchura y la altura del rectángulo se le pasarán como parámetros a la función.
+*/
 import java.util.Scanner;
 
 public class ejercicio_5 {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Introduce la altura: ");
-        int altura = sc.nextInt();
-        System.out.print("Introduce la anchura: ");
-        int anchura = sc.nextInt();
+    public static void pintarRectangulo(int anchura, int altura) {
         for (int i = 0; i < altura; i++) {
             for (int j = 0; j < anchura; j++) {
-                System.out.print("*");
+                System.out.print("* ");
             }
             System.out.println();
         }
     }
+
+    public static void main(String[] args) {
+        pintarRectangulo(10, 3);
+        }
 }

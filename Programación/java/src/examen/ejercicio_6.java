@@ -1,28 +1,23 @@
 package examen;
-
-import java.util.Scanner;
+/*
+Desarrolla una función que sea capaz de "pintar" por consola un rectángulo vacío con asteriscos. La
+anchura y la altura del rectángulo se le pasarán como parámetros a la función.
+*/
 
 public class ejercicio_6 {
-    public static void main(String[] args) {
-        Scanner entrada = new Scanner(System.in);
-        System.out.println("Introduce el tamaño de anchura: ");
-        int anchura = entrada.nextInt();
-        System.out.println("Introduce el tamaño de altura: ");
-        int altura = entrada.nextInt();
-
-
-        for (int fila = 0; fila < altura; fila++) { // Bucle for para iterar a través de las filas del cuadrado
-            for (int columna = 0; columna < anchura; columna++) { // Bucle for anidado para iterar a través de las columnas
-                // del cuadrado
-                if (fila == 0 ||  fila == altura -1 || columna == 0 || columna == anchura - 1) { // Si la fila o la columna actual
-                    // es la primera o la última,
-                    // imprime un asterisco
-                    System.out.print("*");
-                } else { // De lo contrario, imprime dos espacio en blanco
-                    System.out.print(" ");
+    public static void pintarRectangulo(int anchura, int altura) {
+            for (int i = 0; i < altura; i++) {
+                for (int j = 0; j < anchura; j++) {
+                    if (i == 0 || i == altura - 1 || j == 0 || j == anchura - 1) {
+                        System.out.print(" * ");
+                    } else {
+                        System.out.print("   ");
+                    }
                 }
+                System.out.println();
             }
-            System.out.println(); // Imprime una nueva línea después de cada fila
         }
+    public static void main(String[] args) {
+        pintarRectangulo(10, 3);
     }
 }
