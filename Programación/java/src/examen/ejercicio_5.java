@@ -1,8 +1,8 @@
-package java_ejercicios;
+package examen;
 
 import java.util.Scanner;
 
-public class Rectangulo {
+public class ejercicio_5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Introduce la altura: ");

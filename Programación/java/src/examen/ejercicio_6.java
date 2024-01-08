@@ -1,8 +1,8 @@
-package java_ejercicios;
+package examen;
 
 import java.util.Scanner;
 
-public class Rectangulo_vacio {
+public class ejercicio_6 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         System.out.println("Introduce el tamaño de anchura: ");
